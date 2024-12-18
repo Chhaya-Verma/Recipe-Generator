@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+
+.navbar {
+    background-color: #df1652; /* first color #CF5176*/
+    padding: 10px 20px; 
+}
+
+.navbar-nav .nav-link {
+    color: white !important; 
+    font-weight: 600; 
+    font-size: 16px; 
+    margin-right: 15px; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+}
+
+
+.nav-logo img {
+    border-radius: 50%; 
+    transition: transform 0.3s ease; 
+}
+
+.nav-logo img:hover {
+    transform: scale(1.1); 
+}
+
+
+.nav-item img {
+    border: 2px solid white; 
+    transition: border 0.3s ease;
+}
+
+.nav-item img:hover {
+    border: 2px solid #FFD700; 
+}
