@@ -1,0 +1,145 @@
+/* Main container styling */
+.Maincontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+    gap: 20px;
+    height: 500px;
+    /*890px for full screen*/
+    margin-top: 15px;
+    /* background-image: url('https://t4.ftcdn.net/jpg/02/35/62/97/360_F_235629730_yDhKHc1LyHHk2oArYKnNQ9IhYpRHFY93.jpg'); */
+    background-color: #df1652;
+    background-repeat: cover;
+}
+
+.text-part {
+    flex: 1;
+    text-align: left;
+}
+
+.text-part h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 5rem;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #CF5176;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #e85c8f;
+}
+
+/* Video section styling */
+.video-part {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.video-part video {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 170px;
+    height: 170px;
+    border: 2px solid white;
+}
+
+/* Individual video styles */
+.video-part .video-1 {
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+}
+
+.video-part .video-2 {
+    width: 210px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.video-part .video-3 {
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.video-part .video-4 {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+.video-part .video-5 {
+    width: 200px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.video-part .video-6 {
+    width: 190px;
+    height: 190px;
+    border-radius: 30px;
+}
+
+.video-part .video-7 {
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Featured ai recipe ke liye*/
+
+.featured-recipes {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.featured-recipes .featued-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.featured-recipes .recipes {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.featured-recipes .recipes:hover {
+    transform: scale(1.05);
+}
+
+.featured-recipes .recipes img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
