@@ -11,8 +11,7 @@ const Maincontent = () => {
     }
     return (
         <>
-
-            <div className="Maincontent">
+         <div className="Maincontent">
                 <div className="text-part">
                     <h1>Welcome to Recipe Generator</h1>
                     <h1>Generate Delicious Recipes in Seconds!</h1>
@@ -34,8 +33,8 @@ const Maincontent = () => {
                 </div>
             </div>
 
-
-            <div className="featured-recipes">
+            {/* Featured Recipes Section */}
+            <div className="featured-recipes mt-3">
                 <h2 className="featued-heading">Featured AI Generated Recipes</h2>
                 <div className="recipes">
                     <img src="https://www.mrcook.app/_next/image?url=https%3A%2F%2Fimages.mrcook.app%2Frecipe-image%2F0190e686-e711-761e-9084-2aaffbff4393%3FcacheKey%3DV2VkLCAyNCBKdWwgMjAyNCAyMDo1NToyMiBHTVQ%3D&w=640&q=75" alt="recipe-img" />
@@ -67,10 +66,45 @@ const Maincontent = () => {
 
             </div>
 
+            {/* How Recipe Generator Works Section */}
+            <div className="how-it-works mt-3">
+                <h1 className="how-work-heading">How Recipe Generator Works</h1>
+                <div className="steps">
+                    <div className="step">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTELl-M3M8eU5aybYn28PTKNEP4tvLqFt-Dg&s" alt="step-img" />
+                        <h2>Enter a Prompt</h2>
+                        <p>Enter the ingredients you have on hand, or a recipe idea you'd like to try. You can also specify dietary preferences, such as vegan, vegetarian, or gluten-free.</p>
+                    </div>
+                    <div className="step">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXXusSZ8TDdG80EDNpPC3Hq8oQwGRuWdFBBQcowtxu-3P4b1Q5kpNHa_4gz78FBfD5g4&usqp=CAU" alt="step-img" />
+                        <h2>AI Processes Your Request</h2>
+                        <p>ChefAI uses advanced generative AI to process your input and understand the specific requirements for your recipe.</p>
+                    </div>
+
+                    <div className="step">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEytOJZa_ce4WmqpM9Cl1oDqYFs4IDua3bzw&s" alt="step-img" />
+                        <h2> Recipe Generation</h2>
+                        <p>DishGen’s generative AI will parse your request and generate a brand-new recipe in seconds - complete with title, description, ingredients and steps.</p>
+                    </div>
+
+                    <div className="step">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBvVXqhAk5kQ7S3XSyhFn89BIsK9gBPMEbHg&s" alt="step-img" />
+                        <h2>Customize your Recipe</h2>
+                        <p>In seconds, ChefAI creates a unique recipe tailored to your needs, including the recipe title, detailed description, ingredients list, and step-by-step cooking instructions.</p>
+                    </div>
+
+                    <div className="step">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThXbKuKR38IECO6zfhHluLWXC55CWqP6k3afYuIXqouthW3BbrPaXAiafu-4PHERWcTpM&usqp=CAU" alt="step-img" />
+                        <h2>Modify & Save</h2>
+                        <p>If the recipe isn't perfect the first time, you can request modifications. Then, register for a free account to save, print, and share all your recipe creations.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
             {/* Testimonials/Reviews Section, FAQ (Frequently Asked Questions) , Blog or Resources Section, Achievements or Statistics Section, Contact Us Section, Gallery Section, Subscription Section, Partnerships or Sponsors Section, Pricing Section (if applicable), Success Stories or Case Studies,  Events or Workshops Section */}
-
-
-        </>
+         </>
     )
 }
 
