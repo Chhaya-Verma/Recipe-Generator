@@ -34,7 +34,7 @@ const Maincontent = () => {
             </div>
 
             {/* Featured Recipes Section */}
-            <div className="featured-recipes mt-3">
+            <div className="featured-recipes mt-5">
                 <h2 className="featued-heading">Featured AI Generated Recipes</h2>
                 <div className="recipes">
                     <img src="https://www.mrcook.app/_next/image?url=https%3A%2F%2Fimages.mrcook.app%2Frecipe-image%2F0190e686-e711-761e-9084-2aaffbff4393%3FcacheKey%3DV2VkLCAyNCBKdWwgMjAyNCAyMDo1NToyMiBHTVQ%3D&w=640&q=75" alt="recipe-img" />
@@ -67,7 +67,7 @@ const Maincontent = () => {
             </div>
 
             {/* How Recipe Generator Works Section */}
-            <div className="how-it-works mt-3">
+            <div className="how-it-works mt-5">
                 <h1 className="how-work-heading">How Recipe Generator Works</h1>
                 <div className="steps">
                     <div className="step">
@@ -103,7 +103,7 @@ const Maincontent = () => {
 
 
             { /* WHY CHEFAI SECTION*/}
-            <section className="why-chefAI my-5 ">
+            <section className="why-chefAI my-5 mt-5">
                 <h1 className="why-chefAI-heading mb-4 text-center">Why ChefAI</h1>
                 <div className="why-container d-flex flex-row flex-wrap justify-content-center">
                     <div className="col-md-3 mb-4">
@@ -136,7 +136,7 @@ const Maincontent = () => {
 
 
             {/* Features Section */}
-            <section className="features my-5 ">
+            <section className="features my-5 mt-5">
                 <h1 className="features-heading mb-4 text-center">Features</h1>
                 <div className="features-containder d-flex flex-row flex-wrap justify-content-center">
                     <div className="col-md-3 mb-4">
@@ -170,20 +170,19 @@ const Maincontent = () => {
 
             
             {/* Customer Testimonials for ChefAI  */}
-            <section className="customer-tesimonials my-5 ">
+            <section className="customer-tesimonials my-5 mt-5">
                 <h1 className="customer-tesimonials-heading mb-4 text-center">Customer Testimonials</h1>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU9CnkjmZarCZgpu8NzHZr-ZmZ82n0xRMYaQ&s" alt="" style={{ width: "70px", height: "70px", borderRadius: "50%" }}></img>
                 <div className="customer-tesimonials-containder d-flex flex-row flex-wrap justify-content-center">
                     <div className="col-md-3 mb-4">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQWZp5BXKHmC7hHuO4zutelwwJDX7plnARclnSCPyicycTyVnAdRNpvf6l2pOh8SUgL8&usqp=CAU" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
-                        <h4 className="card-title mt-3">Priya Sharma, Food Blogger</h4>
+                        <h4 className="card-title mt-3">Ina Dewangan, Food Blogger</h4>
                         <h3>⭐⭐⭐⭐⭐</h3>
                         <p className="card-dis MT-10">ChefAI has completely changed the way I cook! I can just enter the ingredients I have, and it suggests the most delicious recipes. It’s like having my own personal chef! I’ve saved so much time and reduced food waste too!</p>
                     </div>
 
                     <div className="col-md-3 mb-4">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxYysFX1TpmAU24DFMZbLDOoEu7ureZgMcQ&s" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
-                        <h4 className="card-title mt-3">Ravi Verma, Software Engineer</h4>
+                        <h4 className="card-title mt-3">Shivansh Verma, Software Engineer</h4>
                         <h3>⭐⭐⭐⭐⭐</h3>
                         <p className="card-dis">I often run out of ingredients while cooking, but ChefAI’s smart substitution feature always saves the day. It not only provides alternatives but also makes sure the flavor is perfect. I can’t imagine cooking without it anymore!"
 
@@ -192,7 +191,7 @@ const Maincontent = () => {
 
                     <div className="col-md-3 mb-4">
                         <img src="https://photosvibe.in/wp-content/uploads/cute-girl-pic11.jpg" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
-                        <h4 className="card-title mt-3">Neha Gupta, Homemaker</h4>
+                        <h4 className="card-title mt-3">Nitya Gupta, Homemaker</h4>
                         <h3>⭐⭐⭐⭐</h3>
                         <p className="card-dis">As someone with specific dietary needs, finding suitable recipes was always a challenge. ChefAI has made it effortless by suggesting recipes that fit my diet perfectly. It’s my go-to kitchen companion!"</p>
                     </div>
@@ -200,7 +199,7 @@ const Maincontent = () => {
 
                     <div className="col-md-3 mb-4">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSseLWBA5vnNgZUNgnXmla469KhKwXmJs1F7Q&s" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
-                        <h4 className="card-title mt-3">Amit Rathore, Fitness Coach</h4>
+                        <h4 className="card-title mt-3">Vivaan Rathore, Fitness Coach</h4>
                         <h3>⭐⭐⭐⭐⭐</h3>
                         <p className="card-dis">ChefAI has made meal prep so much easier. Whether I’m cooking for one or hosting a dinner party, it always has the perfect recipes for me. I highly recommend it to anyone who loves cooking!</p>
                     </div>
@@ -208,6 +207,62 @@ const Maincontent = () => {
             </section>
             
 
+{/*TRANDING RECIPE  */}
+<section className="trending-recipes my-5 mt-5">
+                <h1 className="tranding-heading mb-4 text-center">Trending Recipes</h1>
+                <div className="tranding-recipes-container d-flex flex-row flex-wrap justify-content-center">
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2K7ruDy5cSMNheMF8Y-uvY6xv0xE7RFi3g&s" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Vegan Pasta Salad</h4>
+                        <p className="recipe-dis">⭐ 4.8 | This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbgC7Ivqi39q2Ni31ECzWw8-m_78xeKiY0kC5KXFlLiv3VRnjCrulXOY1wj1FSRQrEhfI&usqp=CAU" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Biryani</h4>
+                        <p className="recipe-dis">This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDWnekjaSEOYPFPE88oUQXN8wSjpphz2vdlQ&s" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Panir</h4>
+                        <p className="recipe-dis">This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI0HzvLzPMfOoE7rirXOxHqQkca1fzY_0u0U2jn3BPUYN7WyXns6ft1iMJw8xgploVTF8&usqp=CAU" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Chaat</h4>
+                        <p className="recipe-dis">This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUBJMCfzZQOOrwCxwWmpN4DerxOyTn7CXZ6hR3YqHAkVKCK7ZLmwsz6kXi0zJI4rQSbCI&usqp=CAU" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Chinese Pakoda</h4>
+                        <p className="recipe-dis">This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkX_viAetdiVywIpGr8fTrVvlxsLktRWbsfKcJ_LdTKkPHwjmfH_40-QwOaS1t80hRR3k&usqp=CAU" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Roast Chicken</h4>
+                        <p className="recipe-dis">This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+
+                    <div className="recipe-card col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VhgPUdCVzDyLZ42yWPs2NXAVraKT7gpkSGTeeveFsPxyQTP-BMvdCR39SiHTXrk5aCM&usqp=CAU" alt="tranding-recipe-img" className="recipe-img"></img>
+                        <h4 className="recipe-title mt-3">Momos</h4>
+                        <p className="recipe-dis">This refreshing pasta salad is perfect for a light lunch or dinner. It's packed with fresh veggies and tossed in a tangy vinaigrette dressing.</p>
+
+                    </div>
+                </div>
+
+                
+            </section>
             {/* Testimonials/Reviews Section, FAQ (Frequently Asked Questions) , Blog or Resources Section, Achievements or Statistics Section, Contact Us Section, Gallery Section, Subscription Section, Partnerships or Sponsors Section, Pricing Section (if applicable), Success Stories or Case Studies,  Events or Workshops Section */}
         </>
     )
