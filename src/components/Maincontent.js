@@ -11,7 +11,7 @@ const Maincontent = () => {
     }
     return (
         <>
-         <div className="Maincontent">
+            <div className="Maincontent">
                 <div className="text-part">
                     <h1>Welcome to Recipe Generator</h1>
                     <h1>Generate Delicious Recipes in Seconds!</h1>
@@ -101,10 +101,74 @@ const Maincontent = () => {
                 </div>
             </div>
 
-            
+
+            { /* WHY CHEFAI SECTION*/}
+            <section className="why-chefAI my-5 ">
+                <h1 className="why-chefAI-heading mb-4 text-center">Why ChefAI</h1>
+                <div className="why-container d-flex flex-row flex-wrap justify-content-center">
+                    <div className="col-md-3 mb-4">
+                        <img src="https://o.aolcdn.com/hss/storage/midas/e1546132992c379617566ecbf95a1a33/204031640/Save+Time.jpg" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Save Time</h4>
+                        <p className="card-dis MT-10">ChefAI helps you prepare recipes in no time with smart
+                            suggestions.</p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEXfZnhvpO6WN3V27LH4JVTxkDKwoMi3_5QOBNwailR8VJ5GG5S_D71pqIDBKAhugyq4&usqp=CAU" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Healthy Recipes</h4>
+                        <p className="card-dis">ChefAI ensures healthy and balanced meal plans.
+                        </p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmaOzJOxa3nNTmXRIbxrAhkzhs1arz9x7q-KSVEBPOPRqAsOSA8FUsXRfbBit9V8abZg&usqp=CAU" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Easy to Use</h4>
+                        <p className="card-dis">User-friendly interface makes cooking fun and easy.</p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://images.jdmagicbox.com/quickquotes/listicle/crop_1712623633989_0xrcr_1407x664.jpg" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Affordable Meals</h4>
+                        <p className="card-dis">Get affordable meal suggestions based on your budget.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* Features Section */}
+            <section className="features my-5 ">
+                <h1 className="features-heading mb-4 text-center">Features</h1>
+                <div className="features-containder d-flex flex-row flex-wrap justify-content-center">
+                    <div className="col-md-3 mb-4">
+                        <img src="https://images.pexels.com/photos/7241482/pexels-photo-7241482.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Personalized Recipes</h4>
+                        <p className="card-dis MT-10">Get recipe suggestions tailored to your taste preferences and dietary needs. SmartChef AI learns what you like and recommends dishes you'll love.</p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe58SemhRExfOu6J5ojLlPv_Dok_oWEpGD4Q&s" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Smart Ingredient Substitution</h4>
+                        <p className="card-dis">Missing an ingredient? No worries! SmartChef AI provides smart substitutions so you can still prepare your meal without compromising on taste.
+                        </p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://thumbs.dreamstime.com/b/flat-illustration-businesswoman-step-up-staircase-illuminated-flashlight-career-guidance-spotlight-to-success-discover-342902739.jpg" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Step-by-Step Guidance</h4>
+                        <p className="card-dis">Cook with confidence! SmartChef AI offers easy-to-follow, step-by-step instructions and timers to help you prepare perfect meals.</p>
+                    </div>
+
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://media.istockphoto.com/id/1403121168/vector/3d-isometric-flat-vector-conceptual-illustration-of-reducing-food-waste.jpg?s=612x612&w=0&k=20&c=TkU3FcZHtx892qnphIey_g-zdTFz4QFmBANpK8k1RQU=" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Reduce Food Wastage</h4>
+                        <p className="card-dis">Make the most of what's in your fridge. SmartChef AI suggests recipes using the ingredients you already have, helping you save food and money.</p>
+                    </div>
+                </div>
+            </section>
 
             {/* Testimonials/Reviews Section, FAQ (Frequently Asked Questions) , Blog or Resources Section, Achievements or Statistics Section, Contact Us Section, Gallery Section, Subscription Section, Partnerships or Sponsors Section, Pricing Section (if applicable), Success Stories or Case Studies,  Events or Workshops Section */}
-         </>
+        </>
     )
 }
 

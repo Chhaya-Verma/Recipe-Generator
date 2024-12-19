@@ -200,3 +200,95 @@
     color: #666;
     line-height: 1.4;
 }
+
+/* Why ChefAI */
+.why-chefAI {
+    padding: 30px 0; 
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ccc;
+ }
+ 
+ .why-chefAI-heading {
+     font-size: 32px;
+     font-weight: bold;
+     color: #333;
+     width: 97%;
+     margin-left: 20px;
+     background-color: #df1652;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ .why-container {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 60px; 
+     justify-content: center;
+     align-items: stretch;
+ }
+ 
+ 
+ .col-md-3 {
+     max-width: 300px;
+     background-color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*NOT IMP*/
+     padding: 15px;
+     text-align: center;
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ }
+ 
+ .col-md-3:hover {
+     transform: translateY(-10px); 
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+ }
+ 
+ .card-img {
+     object-fit: cover; 
+     margin: 0 auto; 
+ }
+ 
+ .card-title {
+     font-size: 1.5rem;
+     font-weight: 600;
+     color: #333;
+     margin-top: 10px;
+ }
+ 
+ .card-dis {
+     font-size: 20PX;
+     color: #555;
+     line-height: 1.6;
+ }
+ 
+
+ /* FEATURES CSS*/
+.features {
+    padding: 40px 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ccc;
+}
+
+.features-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    width: 97%;
+    background-color: #df1652;
+    margin-bottom: 20px;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; 
+    justify-content: center;
+    align-items: stretch;
+}
+
+.col-md-3 {
+    margin: 15px; }
+                      
+                  
