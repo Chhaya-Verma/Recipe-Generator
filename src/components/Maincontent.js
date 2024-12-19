@@ -167,6 +167,47 @@ const Maincontent = () => {
                 </div>
             </section>
 
+
+            
+            {/* Customer Testimonials for ChefAI  */}
+            <section className="customer-tesimonials my-5 ">
+                <h1 className="customer-tesimonials-heading mb-4 text-center">Customer Testimonials</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU9CnkjmZarCZgpu8NzHZr-ZmZ82n0xRMYaQ&s" alt="" style={{ width: "70px", height: "70px", borderRadius: "50%" }}></img>
+                <div className="customer-tesimonials-containder d-flex flex-row flex-wrap justify-content-center">
+                    <div className="col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQWZp5BXKHmC7hHuO4zutelwwJDX7plnARclnSCPyicycTyVnAdRNpvf6l2pOh8SUgL8&usqp=CAU" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Priya Sharma, Food Blogger</h4>
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <p className="card-dis MT-10">ChefAI has completely changed the way I cook! I can just enter the ingredients I have, and it suggests the most delicious recipes. It’s like having my own personal chef! I’ve saved so much time and reduced food waste too!</p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxYysFX1TpmAU24DFMZbLDOoEu7ureZgMcQ&s" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Ravi Verma, Software Engineer</h4>
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <p className="card-dis">I often run out of ingredients while cooking, but ChefAI’s smart substitution feature always saves the day. It not only provides alternatives but also makes sure the flavor is perfect. I can’t imagine cooking without it anymore!"
+
+                        </p>
+                    </div>
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://photosvibe.in/wp-content/uploads/cute-girl-pic11.jpg" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Neha Gupta, Homemaker</h4>
+                        <h3>⭐⭐⭐⭐</h3>
+                        <p className="card-dis">As someone with specific dietary needs, finding suitable recipes was always a challenge. ChefAI has made it effortless by suggesting recipes that fit my diet perfectly. It’s my go-to kitchen companion!"</p>
+                    </div>
+
+
+                    <div className="col-md-3 mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSseLWBA5vnNgZUNgnXmla469KhKwXmJs1F7Q&s" alt="" className="card-img mt-3" style={{ width: "100px", height: "100px", borderRadius: "50%" }}></img>
+                        <h4 className="card-title mt-3">Amit Rathore, Fitness Coach</h4>
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                        <p className="card-dis">ChefAI has made meal prep so much easier. Whether I’m cooking for one or hosting a dinner party, it always has the perfect recipes for me. I highly recommend it to anyone who loves cooking!</p>
+                    </div>
+                </div>
+            </section>
+            
+
             {/* Testimonials/Reviews Section, FAQ (Frequently Asked Questions) , Blog or Resources Section, Achievements or Statistics Section, Contact Us Section, Gallery Section, Subscription Section, Partnerships or Sponsors Section, Pricing Section (if applicable), Success Stories or Case Studies,  Events or Workshops Section */}
         </>
     )
