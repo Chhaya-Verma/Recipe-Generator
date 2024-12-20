@@ -42,6 +42,7 @@ const AboutUs = () => {
           </div>
         </section>
 
+
         {/* OUR VISION SECTION*/}
         <section className="our-vision my-5 ml-5 mr-5">
           <h1 className="our-vision-heading mb-4 text-center">Our Vision</h1>
@@ -68,40 +69,6 @@ const AboutUs = () => {
           </div>
         </section>
 
-
-        {/* OUR TEAM SECTION*/}
-    <section className="our-team my-5 ml-5 mr-5">
-          <h1 className="our-team-heading mb-4 text-center">Our Team</h1>
-          <div className="our-team d-flex flex-row flex-wrap justify-content-center">
-            <div className="our-team-card col-md-3 mb-4">
-              <img src="https://www.shutterstock.com/image-photo/portrait-young-girl-holding-laptop-260nw-2235564131.jpg" alt="our-team-img" className="our-team-img mt-1" style={{ width: "140px", height: "140px", borderRadius: "50%" }} />
-              <h4 className="team-title mt-3">Vaishnavi Verma</h4>
-              <h5 className="team-role">Founder & Culinary Technologist</h5>
-              <p className="vision-description MT-10">Vaishnavi Verma, the mastermind behind ChefAI, blends a passion for culinary arts with cutting-edge AI expertise. With a vision to simplify cooking for all, they have redefined how recipes are created, making them accessible and exciting for every home cook.</p>
-            </div>
-
-            <div className="our-team-card col-md-3 mb-4">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMd9px2uZSAaEh9UvGPYLItsUy7VQSt-SlDGEn2waLEwmYd81YPbiUzbX4Lir1goADSI&usqp=CAU" alt="our-team-img" className="our-team-img mt-1" style={{ width: "140px", height: "140px", borderRadius: "50%" }} />
-              <h4 className="team-title mt-3">Piyush Thakur</h4>
-              <h5 className="team-role">Lead AI Developer</h5>
-              <p className="vision-description">Piyush Thakur, is the brain behind ChefAI’s advanced algorithms. Their expertise in machine learning ensures that every recipe generated is not only accurate but also tailored to user preferences, offering a seamless culinary experience.</p>
-            </div>
-
-            <div className="our-team-card  col-md-3 mb-4">
-              <img src="https://media.istockphoto.com/id/1352606416/photo/young-woman-working-at-home-stock-photo.jpg?s=612x612&w=0&k=20&c=uKfBCoTeP54nA8KOzXDLIyoU31nZ4a4UreFE4p_x_3A=" alt="our-team-img" className="our-team-img mt-1" style={{ width: "140px", height: "140px", borderRadius: "50%" }} />
-              <h4 className="team-title mt-3">Harshita Sahu</h4>
-              <h5 className="team-role">Recipe Curator</h5>
-              <p className="vision-description">Harshita Sahu, brings decades of culinary expertise to ChefAI. They ensure that every AI-generated recipe is flavorful, balanced, and easy to follow, bridging the gap between technology and traditional cooking wisdom.</p>
-            </div>
-
-            <div className="our-team-card col-md-3 mb-4">
-              <img src="https://photosly.net/wp-content/uploads/2023/12/hidden-face-dp-girls16.jpg" alt="our-team-img" className="our-team-img mt-1" style={{ width: "140px", height: "140px", borderRadius: "50%" }} />
-              <h4 className="team-title mt-3">Chhaya Verma</h4>
-              <h5 className="team-role">Product Designer</h5>
-              <p className="vision-description">Chhaya Verma, Taste Tester is the voice of ChefAI’s users, ensuring that the platform is user-friendly, visually appealing, and intuitive. They believe that cooking with AI should be as enjoyable as eating the food itself!</p>
-            </div>
-          </div>
-        </section>
 
         <footer className="cta">
           <h2>Ready to Cook with Chef AI?</h2>

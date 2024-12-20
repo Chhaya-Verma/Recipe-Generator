@@ -62,68 +62,40 @@ text-align: center;
   text-align: center;
 }
 
-
-/* OUR VISION CSS*/
 .our-vision {
-background-color: #ccc;
-}
-
-.vision-description {
-font-size: 20px;
-color: #666;
-padding: 0 10px;
-text-align: center;
-}
-
-/* OUR TEAM CSS */
-.our-vision {
-background-color: #ccc;
-}
-
-.our-vision-heading {
-background-color: #d82759;
-font-size: 35px;
-color: #333;
-text-align: center;
-}
-
-.vision-title {
-font-size: 23px;
-color: #333;
-margin-bottom: 10px;
-}
-
-.vision-description {
-font-size: 20px;
-color: #666;
-padding: 0 10px;
-text-align: center;
-}
-
-/* TEAM MEMBER CSS*/
-.our-team {
-background-color: #ccc;
-}
-
-.our-team-heading {
-font-size: 35px;
-color: #333;
-background-color: #d82759;
-text-align: center;
-}
-
-.our-team-title {
-font-size: 23px;
-color: #333;
-margin-bottom: 15px;
-}
-
-.our-team-description {
-font-size: 20px;
-color: #666;
-padding: 0 10px;
-text-align: center;
-}
-
-
+  background-color: #ccc;
+  }
+  
+  .vision-description {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+  }
+  
+  /* OUR TEAM CSS */
+  .our-vision {
+  background-color: #ccc;
+  }
+  
+  .our-vision-heading {
+  background-color: #d82759;
+  font-size: 35px;
+  color: #333;
+  text-align: center;
+  }
+  
+  .vision-title {
+  font-size: 23px;
+  color: #333;
+  margin-bottom: 10px;
+  }
+  
+  .vision-description {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+  }
+  
 
