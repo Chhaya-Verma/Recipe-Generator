@@ -50,7 +50,7 @@ function Contactus() {
         <div className="contact-us">
             <img src="https://www.shutterstock.com/image-vector/group-businessman-businesswoman-holding-contact-260nw-507167809.jpg" alt="contact-img-top"></img>
             <div className="contact-form">
-                <h1>Contact Us</h1>
+                <h1 className="contact-us-heading">Contact Us</h1>
                 <form onSubmit={handleSubmit}>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <div className="form-fields">

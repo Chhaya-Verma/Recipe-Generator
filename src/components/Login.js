@@ -39,8 +39,8 @@ function LoginForm() {
     };
     return (
         <div className="login-form">
-            <h1> Login/Register</h1>
-            <div className="form-fields">
+            <h1 className="login-form-heading"> Login/Register</h1>
+            <div className="form-field-main">
                 <form onSubmit={handleSubmit}>
                     <div className="form-fields">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4w2eJOt6Z9fJurNkR1vX552blMPHwZTUowQ&s" className="icon"></img>
@@ -56,7 +56,7 @@ function LoginForm() {
                         <img src="https://icons.veryicon.com/png/o/miscellaneous/face-monochrome-icon/password-76.png" className="icon"></img>
                         <input type="password" id="password" name="password" placeholder="Enter your password" value={formData.password} onChange={handleChange} required></input>
                     </div>
-                    <button type="submit">Login</button>
+                    <button type="submit" className="login-btn">Login</button>
                     <p className="login-para"style={{ color: "red" }}>{errors}</p>
                 </form>
                 <div className="right-img">

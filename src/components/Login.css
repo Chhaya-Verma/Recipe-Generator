@@ -4,38 +4,41 @@
     box-sizing: border-box;
   }
   
- 
   .login-form {
-    max-width: 600px;
+    max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    
-    background-color: #fff;
+    background-color: #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  h1 {
+  .login-form-heading {
     text-align: center;
     margin-bottom: 20px;
+    background-color: #df1652;
+    color:#333;
   }
   
-  
-  .form-field {
+  .form-field-main{
     display: flex;
     position: relative;
     align-items: center;
     margin-bottom: 15px;
   }
   
+  .form-fields{
+    width: 180%;
+  }
   .icon {
     width: 20px;
     height: 20px;
-    
+    margin-left: 20px;
+    margin-top: 10px;
     position: absolute;
     margin-right: 10px;
   }
-  
+
   input {
     padding: 10px;
     width: 100%;
@@ -44,12 +47,20 @@
     margin-left: 10px;
   }
   
-  
-  
-  
-  
-  
-  
+  .login-btn{
+    width: 200px;
+    height: 60px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .right-img{
+    margin-left: 15rem;
+  }
+
+  .right-img img{
+    width: 300px;
+}
   @media (max-width: 768px) {
     .login-form {
       padding: 15px;
