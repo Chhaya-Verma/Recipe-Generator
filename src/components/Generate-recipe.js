@@ -95,9 +95,9 @@ function RecipeGenerator() {
 
   return (
     <div className="recipe-generator-form">
-      <h1>Recipe Generator</h1>
+      <h1 className="recipe-generator-heading">Recipe Generator</h1>
       <div className="ingredient-div">
-        <h3>Ingredients:</h3>
+        <h3 className="ingredient-heading">Ingredients:</h3>
         <input type="text" value={input} placeholder="Enter ingredient" className="ingredient-input" onChange={(e) => setInput(e.target.value)} />
         <button className="ingredient-add-btn" onClick={addIngredient}>Add Ingredient</button>
         <ul className="ingredient-list">{ingredients.map((item, index) => (
