@@ -6,17 +6,17 @@
     margin-top: 60px;
     padding: 20px;
     gap: 20px;
-    height: 500px;
-    /*890px for full screen*/
-    margin-top: 15px;
-    /* background-image: url('https://t4.ftcdn.net/jpg/02/35/62/97/360_F_235629730_yDhKHc1LyHHk2oArYKnNQ9IhYpRHFY93.jpg'); */
+    height: 800px;
+    margin-top: 40px;
     background-color: #df1652;
     background-repeat: cover;
+    flex-wrap: wrap; 
 }
 
 .text-part {
     flex: 1;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .text-part h1 {
@@ -26,20 +26,24 @@
     color: whitesmoke;
 }
 
-.buttons {
+/* Buttons inside text part */
+.generate-recipe {
     margin-top: 20px;
-    margin-left: 5rem;
+    margin-left: 50px;
 }
 
 .buttons button {
     padding: 10px 20px;
-    margin-right: 15px;
-    font-size: 16px;
+    margin-left: 12rem;
+    width: 500px;
+    height: auto;
+    font-size: 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #CF5176;
-    color: white;
+    background-color: #ccc;
+    color: black;
+    font-weight: bolder;
     transition: background-color 0.3s ease;
 }
 
@@ -47,64 +51,22 @@
     background-color: #e85c8f;
 }
 
-/* Video section styling */
 .video-part {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    justify-content: flex-end;
+    gap: 40px;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .video-part video {
     border-radius: 10px;
     object-fit: cover;
-    width: 170px;
-    height: 170px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
     border: 2px solid white;
-}
-
-/* Individual video styles */
-.video-part .video-1 {
-    width: 170px;
-    height: 170px;
-    border-radius: 20px;
-}
-
-.video-part .video-2 {
-    width: 210px;
-    height: 150px;
-    border-radius: 10px;
-}
-
-.video-part .video-3 {
-    width: 200px;
-    height: 150px;
-    border-radius: 25px;
-}
-
-.video-part .video-4 {
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
-}
-
-.video-part .video-5 {
-    width: 200px;
-    height: 220px;
-    border-radius: 15px;
-}
-
-.video-part .video-6 {
-    width: 190px;
-    height: 190px;
-    border-radius: 30px;
-}
-
-.video-part .video-7 {
-    width: 190px;
-    height: 190px;
-    border-radius: 10px;
 }
 
 /* Featured ai recipe ke liye*/
@@ -137,14 +99,14 @@
 }
 
 .featured-recipes .recipes img {
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     object-fit: cover;
     display: block;
 }
 
- /*How it work*/
- .how-it-works {
+/*How it work*/
+.how-it-works {
     text-align: center;
     padding: 20px;
     margin-left: 80px;
@@ -203,67 +165,68 @@
 
 /* Why ChefAI */
 .why-chefAI {
-    padding: 30px 0; 
+    padding: 30px 0;
     margin-left: 80px;
     margin-right: 80px;
     background-color: #ccc;
- }
- 
- .why-chefAI-heading {
-     font-size: 32px;
-     font-weight: bold;
-     color: #333;
-     width: 97%;
-     margin-left: 20px;
-     background-color: #df1652;
-     margin-bottom: 20px;
- }
- 
- 
- .why-container {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 60px; 
-     justify-content: center;
-     align-items: stretch;
- }
- 
- 
- .col-md-3 {
-     max-width: 300px;
-     background-color: #ffffff;
-     border-radius: 10px;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*NOT IMP*/
-     padding: 15px;
-     text-align: center;
-     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
- }
- 
- .col-md-3:hover {
-     transform: translateY(-10px); 
-     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
- }
- 
- .card-img {
-     object-fit: cover; 
-     margin: 0 auto; 
- }
- 
- .card-title {
-     font-size: 1.5rem;
-     font-weight: 600;
-     color: #333;
-     margin-top: 10px;
- }
- 
- .card-dis {
-     font-size: 20PX;
-     color: #555;
-     line-height: 1.6;
- }
- 
+}
 
- /* FEATURES CSS*/
+.why-chefAI-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    width: 97%;
+    margin-left: 20px;
+    background-color: #df1652;
+    margin-bottom: 20px;
+}
+
+
+.why-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.col-md-3 {
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*NOT IMP*/
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.col-md-3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card-dis {
+    font-size: 20PX;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* FEATURES CSS*/
 .features {
     padding: 40px 20px;
     margin-left: 80px;
@@ -283,12 +246,91 @@
 .features-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px; 
+    gap: 60px;
     justify-content: center;
     align-items: stretch;
 }
 
 .col-md-3 {
-    margin: 15px; }
-                      
-                  
+    margin: 15px;
+}
+
+
+/*Customer Testimonials*/
+.customer-tesimonials {
+    padding: 40px 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ccc;
+}
+
+.customer-tesimonials-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    width: 97%;
+    background-color: #df1652;
+    margin-bottom: 20px;
+}
+
+/* Tranding Recipe*/
+.trending-recipes {
+    padding: 40px 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ccc;
+}
+
+.tranding-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    width: 97%;
+    background-color: #df1652;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    background-color: #ccc;
+    color: #333;
+    font-weight: 800;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    text-align: center;
+}
+.list-unstyled{
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .Maincontent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-part video {
+        width: 100%;
+        height: auto;
+    }
+    .buttons {
+        text-align: center;
+    }
+
+    .buttons button {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video-part video {
+        width: 45%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .video-part video {
+        width: 200px;
+        height: 200px;
+    }
+}
