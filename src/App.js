@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Maincontent from "./components/Maincontent";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import GenerateRecipe from "./components/Generate-recipe";
@@ -25,7 +24,6 @@ function App() {
           <Route path="/saved-recipe" element={<VideoGallery />} /> 
           <Route path="/saved-recipe" element={<SavedRecipes />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
 
