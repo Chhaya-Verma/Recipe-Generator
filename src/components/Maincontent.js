@@ -25,10 +25,11 @@ const Maincontent = () => {
                     <video src="https://cdn.pixabay.com/video/2017/08/25/11562-231234700_tiny.mp4" autoPlay loop muted className="video-1"></video>
                     <video src="https://cdn.pixabay.com/video/2022/07/10/123629-728697948_large.mp4" autoPlay loop muted className="video-2"></video>
                     <video src="https://cdn.pixabay.com/video/2017/08/29/11638-231758689_tiny.mp4" autoPlay loop muted className="video-3"></video>
-                    <video src="https://cdn.pixabay.com/video/2017/08/29/11619-231571922_tiny.mp4" autoPlay loop muted className="video-4"></video>
+                    <video src="https://cdn.pixabay.com/video/2022/10/08/133987-758543857_large.mp4" autoPlay loop muted className="video-4"></video>
                     <video src="https://media.istockphoto.com/id/1332050255/video/fresh-delicious-vegetables-chicken-and-pasta-around-a-tablet-showing-a-recipe-all-on-the.mp4?s=mp4-640x640-is&k=20&c=kqJvDvT8ulicUDJ-IGsQeCB8R0kkjKbrOj0mjzx_VpA=" autoPlay loop muted className="video-5"></video>
                     <video src="https://media.istockphoto.com/id/673585686/video/young-woman-scrolling-through-recipes-on-her-tablet-in-the-kitchen.mp4?s=mp4-480x480-is&k=20&c=QfGzlCTi70gRs3YdRUiOkWoNVJD-pkizframiR2oZWY=" autoPlay loop muted className="video-6"></video>
                     <video src="https://media.istockphoto.com/id/1889676375/video/fried-rice-in-the-wok-being-mixed-using-a-wooden-spoon.mp4?s=mp4-640x640-is&k=20&c=1OS3dyIl8GzIa59wQ3ue5UatloaKZlZ2jOIAFybHaxE=" autoPlay loop muted className="video-7"></video>
+                    <video src="https://cdn.pixabay.com/video/2017/08/30/11657-231758747_large.mp4" autoPlay loop muted className="video-8"></video>
                 </div>
             </div>
 

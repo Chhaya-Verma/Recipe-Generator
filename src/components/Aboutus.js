@@ -1,8 +1,16 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import './Aboutus.css';
 
 const AboutUs = () => {
+
+  const navigate = useNavigate();
+  const handleGenerateRecipeClick = () => {
+    navigate("/generate-recipe");
+
+  }
   return (
+
     <>
       <div className="about-us">
         <header className="about-header">
@@ -70,11 +78,11 @@ const AboutUs = () => {
         </section>
 
 
-{/* OUR TEAM SECTION*/}
-<section className="our-team my-5 ml-5 mr-5">
+        {/* OUR TEAM SECTION*/}
+        <section className="our-team my-5 ml-5 mr-5">
           <h1 className="our-team-heading mb-4 text-center">Our Team</h1>
           <div className="our-team d-flex flex-row flex-wrap justify-content-center">
-            <div className="our-team-card col-md-3 mb-4 ml-5"> 
+            <div className="our-team-card col-md-3 mb-4 ml-5">
               <img src="https://www.shutterstock.com/image-photo/portrait-young-girl-holding-laptop-260nw-2235564131.jpg" alt="our-team-img" className="our-team-img mt-1" style={{ width: "140px", height: "140px", borderRadius: "50%" }} />
               <h4 className="team-title mt-3">Vaishnavi Verma</h4>
               <h5 className="team-role">Founder & Culinary Technologist</h5>
@@ -103,11 +111,11 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-            
+
 
         <footer className="about-footer">
           <h2 className='about-footer-heading'>Ready to Cook with Chef AI?</h2>
-          <button className='about-footer-button'><a href="./src/components/Generate-recipe.js" >Get Started</a></button>
+          <button className='about-footer-button' onClick={handleGenerateRecipeClick}>Get Started</button> {/* Call the function on button click */}
         </footer>
       </div>
     </>

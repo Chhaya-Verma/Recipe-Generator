@@ -69,6 +69,25 @@
     border: 2px solid white;
 }
 
+.generate-recipe{
+    animation: buttonAnimation 1.5s ease-in-out infinite;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+        background-color: #ccc;
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: #e85c8f;
+    }
+    100% {
+        transform: scale(1);
+        background-color: #ccc;
+    }
+}
+
 /* Featured ai recipe ke liye*/
 .featured-recipes {
     text-align: center;
@@ -76,6 +95,7 @@
     background-color: #ccc;
     margin-left: 80px;
     margin-right: 80px;
+    
 }
 
 .featured-recipes .featued-heading {
@@ -304,33 +324,76 @@
 }
 
 @media screen and (max-width: 768px) {
+    /* Main container styling */
     .Maincontent {
         flex-direction: column;
         align-items: center;
+        padding: 10px; 
     }
-    .video-part video {
-        width: 100%;
-        height: auto;
-    }
+  
+    /* Ensure buttons are stacked vertically and centered */
     .buttons {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;  
     }
-
+  
     .buttons button {
         width: 80%;
         margin: 10px 0;
+        padding: 15px;
+        font-size: 20px;
     }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+    /* Style the video section */
+    .video-part {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+        gap: 10px; 
+        margin-top: 20px;
+        width: 100%; 
+    }
+  
+    .video-part video {
+        width: 50%; 
+        height: 50px; 
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+  
+    /* Adjust the space above the Featured AI section */
+    .featured-recipes {
+        margin-top: 40px; 
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
     .video-part video {
         width: 45%;
         height: auto;
     }
-}
-@media screen and (min-width: 1025px) {
+  }
+  
+  @media screen and (min-width: 1025px) {
     .video-part video {
         width: 200px;
         height: 200px;
     }
-}
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video-part video {
+        width: 45%;
+        height: auto;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    .video-part video {
+        width: 200px;
+        height: 200px;
+    }
+  }
+  
+  
