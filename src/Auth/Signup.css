@@ -1,0 +1,139 @@
+/* General Styling */
+.signup-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+.signup-form {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.signup-form h2 {
+  text-align: center;
+  color: #9e4a68;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #9e4a68;
+  font-size: 16px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #9e4a68;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: white;
+  background-color: #fff1f5;
+  box-shadow: 0 0 8px #9e4a68;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #9e4a68;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: #9e4a68;
+  border: 2px solid #9e4a68;
+}
+
+/* Right side image styling */
+.signup-image {
+  width: 45%;
+  text-align: center;
+}
+
+.signup-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the "Login here" link */
+.login-option {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link {
+  color: #9e4a68;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .signup-form {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .signup-image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,131 @@
+
+/* Container for the login content */
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 170px;
+  }
+  
+  .login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px; /* Max width for large screens */
+    border: 2px solid #9e4a68;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Login form styling */
+  .login-form {
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: #9e4a68;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #9e4a68;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #9e4a68;
+    background-color: #e8f5e9;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #9e4a68;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #b1476c;
+  }
+  
+  /* Right side image styling */
+  .login-image {
+    width: 45%;
+  }
+  
+  .login-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .login-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .login-form {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .login-image {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    .input-field {
+      padding-left: 30px;
+    }
+  
+    .submit-btn {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  
