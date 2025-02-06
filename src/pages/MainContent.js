@@ -1,6 +1,6 @@
 import React from "react";
-import "./Maincontent.css";
-import Navbar from "./Navbar";
+import "./MainContent.css";
+import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 
 const Maincontent = () => {
@@ -137,7 +137,6 @@ const Maincontent = () => {
                     </div>
                 </div>
             </section>
-
 
             {/* Features Section */}
             <section className="features my-5 mt-5">

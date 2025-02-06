@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg">
                 <div className="container justify-content-between">
                     <a className="nav-logo" href="#" >
-                        <img src="https://i.ytimg.com/vi/TDeaHykcV20/hqdefault.jpg" alt="navbar-logo" style={{ width: "50px", height: "50px" }} />
+                        <img src="https://t4.ftcdn.net/jpg/02/72/65/95/360_F_272659528_4BeXAVkr69LHfeTMEaEaVEFBco5ooFYj.jpg" alt="navbar-logo" style={{ width: "50px", height: "50px" }} />
                     </a>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

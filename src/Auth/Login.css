@@ -17,6 +17,8 @@
     width: 80%;
     max-width: 1000px; /* Max width for large screens */
     border: 2px solid #9e4a68;
+    border-right: 8px solid #9e4a68;
+    border-bottom: 8px solid #9e4a68;
     border-radius: 8px;
     background-color: white;
     padding: 20px;

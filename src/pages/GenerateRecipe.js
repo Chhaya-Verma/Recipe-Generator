@@ -3,7 +3,8 @@
 //////////Try to add card formate and after resolving error /////////////
 // RecipeGenerator.js
 import React, { useState, useEffect } from "react";
-import "./Generate-recipe.css";
+import Navbar from "../components/Navbar";
+import "./GenerateRecipe.css";
 
 function RecipeGenerator() {
   const [ingredients, setIngredients] = useState([]);
@@ -94,8 +95,11 @@ function RecipeGenerator() {
   }
 
   return (
+    <>
+    <Navbar />
     <div className="recipe-generator-form">
-      <h1 className="recipe-generator-heading">Recipe Generator</h1>
+      
+      <h1 className="recipe-generator-heading">  🍕🍟🥪🍰🍪🧁🍬🍨 𝑹𝒆𝒄𝒊𝒑𝒆 𝑮𝒆𝒏𝒆𝒓𝒂𝒕𝒐𝒓 🥙🥡🍖🥧🎂🍦🍭🍩</h1>
       <div className="ingredient-div">
         <h3 className="ingredient-heading">Ingredients:</h3>
         <input type="text" value={input} placeholder="Enter ingredient" className="ingredient-input" onChange={(e) => setInput(e.target.value)} />
@@ -122,6 +126,7 @@ function RecipeGenerator() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

@@ -18,7 +18,7 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    background-color: #ccc;
+    background-color: #f7eaf1;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -27,8 +27,8 @@
 
 .contact-form h1 {
     margin-bottom: 20px;
-    color: #333;
-    background-color:  #df1652;
+    color: whitesmoke;
+    background-color: #9e4a68;
     font-size: 2rem;
     text-align: center;
 }
@@ -52,8 +52,9 @@
 form label {
     font-weight: bold;
     margin-bottom: 5px;
-    color: #df1652;
+    color: #9e4a68;
 }
+
 
 form input,
 form textarea {
@@ -67,7 +68,7 @@ form textarea {
 form button {
     width: 30%;
     padding: 10px 20px;
-    background-color:  #df1652 ;
+    background-color:  #9e4a68 ;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -76,7 +77,7 @@ form button {
 }
 
 form button:hover {
-    background-color:#f8054e ;
+    background-color:#b64a70 ;
 }
 
 

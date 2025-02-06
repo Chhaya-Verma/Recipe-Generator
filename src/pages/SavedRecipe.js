@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import './Saved-recipe.css'
+import Navbar from "../components/Navbar";
+import './SavedRecipe.css'
 function SavedRecipe() {
   const [savedRecipes, setSavedRecipes] = useState(() => {
     return JSON.parse(localStorage.getItem("savedRecipes")) || [];
@@ -35,8 +36,10 @@ function SavedRecipe() {
   };
 
   return (
+    <>
+    <Navbar />
     <div className="saved-recipe">
-      <h1 className="saved-recipe-heading">Saved Recipes</h1>
+      <h1 className="saved-recipe-heading">𝑺𝒂𝒗𝒆𝒅 𝑹𝒆𝒄𝒊𝒑𝒆𝒔</h1>
       {savedRecipes.length > 0 ? (
         savedRecipes.map((recipe, index) => (
           <div key={index}>
@@ -59,7 +62,9 @@ function SavedRecipe() {
         </div>
       )}
     </div>
+    </>
   );
+  
 }
 
 export default SavedRecipe;

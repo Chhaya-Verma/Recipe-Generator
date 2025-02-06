@@ -17,6 +17,8 @@
   border-radius: 12px;
   background-color: white;
   padding: 30px;
+  border-right: 8px solid #9e4a68;
+  border-bottom: 8px solid #9e4a68;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -51,14 +53,14 @@
   padding: 12px;
   font-size: 16px;
   border: 2px solid #9e4a68;
-  border-radius: 6px;
+  border-radius: 15px 50px; 
   background-color: #f9f9f9;
   transition: 0.3s;
 }
 
 .input-field:focus {
   outline: none;
-  border-color: white;
+  border-color: whitesmoke;
   background-color: #fff1f5;
   box-shadow: 0 0 8px #9e4a68;
 }

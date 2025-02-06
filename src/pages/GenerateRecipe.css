@@ -2,7 +2,7 @@
   margin: 20px auto;
   padding: 30px;
   max-width: 1200px;
-  background-color: #ccc;
+  background-color: #f7eaf1;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
-  color: #e71655;
+  color: #9e4a68;
 }
 
 .ingredient-div {
@@ -20,7 +20,7 @@ h1 {
 
 .ingredient-heading {
   font-size: 30px;
-  color:#e71655;
+  color:#9e4a68;
   margin-bottom: 10px;
 }
 
@@ -35,8 +35,8 @@ h1 {
 
 .ingredient-add-btn {
   padding: 12px 24px;
-  background-color: #e71655;
-  color: white;
+  background-color: #9e4a68;
+  color: whitesmoke;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -46,7 +46,7 @@ h1 {
 }
 
 .ingredient-add-btn:hover {
-  background-color: #ec0349;
+  background-color: #915a6d;
 }
 
 .ingredient-list {
@@ -95,8 +95,8 @@ h1 {
 
 .get-recipe-btn {
   padding: 12px 24px;
-  background-color:#e71655;
-  color: white;
+  background-color:#9e4a68;
+  color: whitesmoke;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -107,7 +107,7 @@ h1 {
 }
 
 .get-recipe-btn:hover {
-  background-color:#f0044a;
+  background-color:#a74064;
 }
 
 .result {
@@ -136,7 +136,7 @@ h1 {
 
 .save-recipe-btn {
   padding: 10px 20px;
-  background-color: #e71655;
+  background-color: #9e4a68;
   font-weight: bold;
   color: white;
   border: none;
@@ -147,6 +147,6 @@ h1 {
 }
 
 .save-recipe-btn:hover {
-  background-color: #e71655;
+  background-color: #a74164;
 }
 

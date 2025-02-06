@@ -4,16 +4,16 @@
   padding: 20px;
   margin-left: 170px;
   margin-right: 170px;
-  background-color: #ccc;
+  background-color: #f7eaf1;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .saved-recipe-heading {
   text-align: center;
-  font-size: 24px;
+  font-size: 34px;
   margin-bottom: 20px;
-  color: #333;
+  color: #9e4a68
 }
 
 .saved-recipe p {
@@ -30,7 +30,7 @@
 
 .saved-recipe h4 {
   font-size: 18px;
-  color: #333;
+  color: #9e4a68;
   margin-bottom: 10px;
 }
 
@@ -54,24 +54,24 @@
 }
 
 .edit-btn {
-  background-color: #dd1551;
+  background-color: #9e4a68;
   color: white;
   font-size: large;
 }
 
 .edit-btn:hover {
-  background-color: #fc0750;
+  background-color: #b4486e;
 }
 
 .remove-btn {
-  background-color: #e61151;
+  background-color: #9e4a68;
   margin-left: 30PX;
   color: white;
   font-size: large;
 }
 
 .remove-btn:hover {
-  background-color: #fa0750;
+  background-color: #af4369;
 }
 
 .saved-recipe-p {
@@ -109,13 +109,13 @@
 
 .edit-recipe-input:focus,
 .edit-recipe-textarea:focus {
-  border-color: #e21855;
+  border-color: #af496d;
   outline: none;
 }
 
 .edit-recipe button {
   padding: 10px 20px;
-  background-color:#e21855;
+  background-color:#9e4a68;
   color: white;
   border: none;
   border-radius: 5px;
@@ -123,7 +123,7 @@
 }
 
 .edit-recipe button:hover {
-  background-color: #ec0c50;
+  background-color: #b94b72;
 }
 
 /* Media Queries for Responsive Design */
