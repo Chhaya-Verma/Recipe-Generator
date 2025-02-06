@@ -1,22 +1,22 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import './Aboutus.css';
+import Navbar from "./Navbar";
+import './AboutUs.css';
 
 const AboutUs = () => {
 
   const navigate = useNavigate();
   const handleGenerateRecipeClick = () => {
     navigate("/generate-recipe");
-
   }
   return (
-
     <>
+    <Navbar/>
       <div className="about-us">
         <header className="about-header">
-          <h1 className='about-header-heading'>Meet Chef AI – Your Culinary Companion!</h1>
+          <h1 className='about-header-heading'>ₘₑₑₜ Cₕₑf ₐᵢ – Yₒᵤᵣ Cᵤₗᵢₙₐᵣy Cₒₘₚₐₙᵢₒₙ!</h1>
           <p>
-            Chef AI is here to revolutionize the way you cook. From managing your ingredients to giving you tailored recipe suggestions, Chef AI is your go-to kitchen assistant.
+          𝖢𝗁𝖾𝖿 𝖠𝖨 𝗂𝗌 𝗁𝖾𝗋𝖾 𝗍𝗈 𝗋𝖾𝗏𝗈𝗅𝗎𝗍𝗂𝗈𝗇𝗂𝗓𝖾 𝗍𝗁𝖾 𝗐𝖺𝗒 𝗒𝗈𝗎 𝖼𝗈𝗈𝗄. 𝖥𝗋𝗈𝗆 𝗆𝖺𝗇𝖺𝗀𝗂𝗇𝗀 𝗒𝗈𝗎𝗋 𝗂𝗇𝗀𝗋𝖾𝖽𝗂𝖾𝗇𝗍𝗌 𝗍𝗈 𝗀𝗂𝗏𝗂𝗇𝗀 𝗒𝗈𝗎 𝗍𝖺𝗂𝗅𝗈𝗋𝖾𝖽 𝗋𝖾𝖼𝗂𝗉𝖾 𝗌𝗎𝗀𝗀𝖾𝗌𝗍𝗂𝗈𝗇𝗌, 𝖢𝗁𝖾𝖿 𝖠𝖨 𝗂𝗌 𝗒𝗈𝗎𝗋 𝗀𝗈-𝗍𝗈 𝗄𝗂𝗍𝖼𝗁𝖾𝗇 𝖺𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝗍.
           </p>
         </header>
 
@@ -114,7 +114,7 @@ const AboutUs = () => {
 
 
         <footer className="about-footer">
-          <h2 className='about-footer-heading'>Ready to Cook with Chef AI?</h2>
+          <h2 className='about-footer-heading'>ℝ𝕖𝕒𝕕𝕪 𝕥𝕠 ℂ𝕠𝕠𝕜 𝕨𝕚𝕥𝕙 ℂ𝕙𝕖𝕗 𝔸𝕀?</h2>
           <button className='about-footer-button' onClick={handleGenerateRecipeClick}>Get Started</button> {/* Call the function on button click */}
         </footer>
       </div>

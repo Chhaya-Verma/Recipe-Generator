@@ -1,0 +1,138 @@
+/* ABOUT US CSS */
+.about-us {
+  padding: 20px;
+  text-align: center;
+}
+.about-header-heading{
+  font-size: 40px;
+  color: #9e4a68;
+  font-weight: bold;
+}
+.about-header h1 {
+  font-size: 50px;
+  color: #9e4a68;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 23px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Mission section styling */
+.our-mission {
+  padding: 30px 0;
+  background-color:  #f7eaf1;
+}
+
+.mission-heading {
+  font-size: 35px;
+  background-color: #9e4a68;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.our-mission .col-md-3 {
+  align-items: center;
+  text-align: center;
+}
+
+.mission-title {
+  font-size: 23px;
+  color: #181717;
+  margin-bottom: 10px;
+}
+
+.mission-description {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/*Our Vision*/
+
+  
+.vision-description {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+ }
+  
+  /* OUR TEAM CSS */
+.our-vision {
+  background-color: #f7eaf1;
+}
+  
+.our-vision-heading {
+  background-color: #9e4a68;
+  font-size: 35px;
+  color: whitesmoke;
+  text-align: center;
+}
+  
+.vision-title {
+  font-size: 23px;
+  color: #333;
+  margin-bottom: 10px;
+}
+  
+.vision-description {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+}
+  
+/* TEAM MEMBER CSS*/
+.our-team {
+  background-color: #f7eaf1;
+}
+  
+.our-team-heading {
+  font-size: 35px;
+  color: whitesmoke;
+  background-color: #9e4a68;
+  text-align: center;
+}
+  
+.our-team-title {
+  font-size: 23px;
+  color: #333;
+  margin-bottom: 15px;
+}
+  
+.our-team-description {
+  font-size: 20px;
+  color: #666;
+  padding: 0 10px;
+  text-align: center;
+}
+  
+.about-footer-heading{
+  font-size: 30px;
+  color: #9e4a68;
+  font-weight: bold;
+}
+
+.about-footer-button{
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 250px;
+  height: 70px;
+  background-color:  #9e4a68;
+  color:whitesmoke;
+  font-weight: bold;
+  font-size: 28px;
+  border: none;
+  border-radius: 20px;
+}
