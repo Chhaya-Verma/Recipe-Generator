@@ -1,5 +1,6 @@
 import React from "react";
 import "./Maincontent.css";
+import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 
 const Maincontent = () => {
@@ -7,14 +8,16 @@ const Maincontent = () => {
 
     const handleGenerateRecipeClick = () => {
         navigate("/generate-recipe");
-
-    }
+     }
     return (
         <>
+            <Navbar />
             <div className="Maincontent">
+                {/* <div className="maincontent-container"> */}
                 <div className="text-part">
-                    <h1>Welcome to Recipe Generator</h1>
-                    <h1>Generate Delicious Recipes in Seconds!</h1>
+                    <h1>𝕎𝕖𝕝𝕔𝕠𝕞𝕖 𝕥𝕠 ℝ𝕖𝕔𝕚𝕡𝕖 𝔾𝕖𝕟𝕖𝕣𝕒𝕥𝕠𝕣</h1>
+                    <h1>𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐃𝐞𝐥𝐢𝐜𝐢𝐨𝐮𝐬 𝐑𝐞𝐜𝐢𝐩𝐞𝐬 𝐢𝐧 𝐒𝐞𝐜𝐨𝐧𝐝𝐬!</h1>  {/*𝓖𝓮𝓷𝓮𝓻𝓪𝓽𝓮 𝓓𝓮𝓵𝓲𝓬𝓲𝓸𝓾𝓼 𝓡𝓮𝓬𝓲𝓹𝓮𝓼 𝓲𝓷 𝓢𝓮𝓬𝓸𝓷𝓭𝓼!         𝓖𝓮𝓷𝓮𝓻𝓪𝓽𝓮 𝓓𝓮𝓵𝓲𝓬𝓲𝓸𝓾𝓼 𝓡𝓮𝓬𝓲𝓹𝓮𝓼 𝓲𝓷 𝓢𝓮𝓬𝓸𝓷𝓭𝓼!*/     }
+                    {/* <img src="https://img.freepik.com/premium-photo/cartoon-character-with-chef-hat-pink-ribbon_750792-24508.jpg" alt="chef-img" width="90" height="90"/> */}
                     <div className="buttons">
                         <button className="generate-recipe" onClick={handleGenerateRecipeClick}>
                             Generate Recipe
@@ -31,6 +34,7 @@ const Maincontent = () => {
                     <video src="https://media.istockphoto.com/id/1889676375/video/fried-rice-in-the-wok-being-mixed-using-a-wooden-spoon.mp4?s=mp4-640x640-is&k=20&c=1OS3dyIl8GzIa59wQ3ue5UatloaKZlZ2jOIAFybHaxE=" autoPlay loop muted className="video-7"></video>
                     <video src="https://cdn.pixabay.com/video/2017/08/30/11657-231758747_large.mp4" autoPlay loop muted className="video-8"></video>
                 </div>
+                {/* </div> */}
             </div>
 
             {/* Featured Recipes Section */}

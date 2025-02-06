@@ -3,16 +3,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
     padding: 20px;
     gap: 20px;
     height: 800px;
-    margin-top: 40px;
-    background-color: #df1652;
+    background-color: #9e4a68;   /* good color option for future #6c104c */
     background-repeat: cover;
     flex-wrap: wrap; 
 }
 
+/* .maincontent-container{
+    border: 2px solid white;
+} */
 .text-part {
     flex: 1;
     text-align: left;
@@ -66,7 +67,7 @@
     width: 200px;
     height: px;
     border-radius: 40px;
-    border: 2px solid white;
+    border: 3px solid whitesmoke;
 }
 
 .generate-recipe{
@@ -92,7 +93,7 @@
 .featured-recipes {
     text-align: center;
     padding: 20px;
-    background-color: #ccc;
+    background-color: #f7eaf1;
     margin-left: 80px;
     margin-right: 80px;
     
@@ -100,14 +101,14 @@
 
 .featured-recipes .featued-heading {
     font-size: 2rem;
-    color: #ccc;
-    background-color: #df1652;
+    color: whitesmoke;
+    background-color: #9e4a68;
 }
 
 .featured-recipes .recipes {
     display: inline-block;
     margin: 10px;
-    border: 2px solid black;
+    border: 4px solid #9e4a68;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -131,15 +132,15 @@
     padding: 20px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: #ccc;
+    background-color: #f7eaf1;
 }
 
 .how-it-works .how-work-heading {
     font-size: 32px;
-    color: #333;
+    color: whitesmoke;
     margin-bottom: 20px;
     width: 100%;
-    background-color: #df1652;
+    background-color: #9e4a68;
 }
 
 .how-it-works .steps {
@@ -155,9 +156,14 @@
     border-radius: 10px;
     text-align: center;
     width: 250px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 0 10px rgba(158, 74, 104, 0.4); /* Right side shadow effect */
     transition: transform 0.3s ease;
+    border-right: 7px solid #9e4a68;
+    border-bottom: 7px solid #9e4a68;
+    border-top: 2px solid #9e4a68; 
+    border-left: 2px solid #9e4a68;
 }
+
 
 .how-it-works .step:hover {
     transform: scale(1.05);
@@ -173,13 +179,14 @@
 
 .how-it-works .step h2 {
     font-size: 1.2rem;
-    color: #555;
+    color: black;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .how-it-works .step p {
     font-size: 0.9rem;
-    color: #666;
+    color: black;
     line-height: 1.4;
 }
 
@@ -188,16 +195,16 @@
     padding: 30px 0;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: #ccc;
+    background-color: #f7eaf1;
 }
 
 .why-chefAI-heading {
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: whitesmoke;
     width: 97%;
     margin-left: 20px;
-    background-color: #df1652;
+    background-color: #9e4a68;
     margin-bottom: 20px;
 }
 
@@ -217,6 +224,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /*NOT IMP*/
+    border-right: 5px solid #9e4a68;
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -251,15 +259,15 @@
     padding: 40px 20px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: #ccc;
+    background-color: #f7eaf1;
 }
 
 .features-heading {
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: whitesmoke;
     width: 97%;
-    background-color: #df1652;
+    background-color: #9e4a68;
     margin-bottom: 20px;
 }
 
@@ -281,15 +289,15 @@
     padding: 40px 20px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: #ccc;
+    background-color: #f7eaf1;
 }
 
 .customer-tesimonials-heading {
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: whitesmoke;
     width: 97%;
-    background-color: #df1652;
+    background-color: #9e4a68;
     margin-bottom: 20px;
 }
 
@@ -298,29 +306,35 @@
     padding: 40px 20px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: #ccc;
+    background-color: #f7eaf1;
 }
 
 .tranding-heading {
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: whitesmoke;
     width: 97%;
-    background-color: #df1652;
+    background-color: #9e4a68;
     margin-bottom: 20px;
 }
 
 .footer-section {
-    background-color: #ccc;
-    color: #333;
+    background-color: #9e4a68;
+    color: whitesmoke;
     font-weight: 800;
-    margin-left: 80px;
-    margin-right: 80px;
     padding: 20px;
     text-align: center;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    clip-path: ellipse(100% 100% at center top); 
 }
+
 .list-unstyled{
     color: #333;
+}
+.tranding-recipes-container .recipe-card {
+    border-right: 7px solid #9e4a68;
+    border-bottom: 5px solid #9e4a68;
 }
 
 @media screen and (max-width: 768px) {
